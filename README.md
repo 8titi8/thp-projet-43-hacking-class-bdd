@@ -9,3 +9,4 @@
 		<li><strong>Mathilde Ray</strong> : 06 25 98 18 85</li>
 		</ul></p>
 
+Tu vas encore faire un site d'éducation en ligne. Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.
