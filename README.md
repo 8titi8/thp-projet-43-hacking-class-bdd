@@ -9,4 +9,16 @@
 		<li><strong>Mathilde Ray</strong> : 06 25 98 18 85</li>
 		</ul></p>
 
-Tu vas encore faire un site d'éducation en ligne. Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.
+<p>On veut faire un site d'éducation en ligne. Dans ce site il y aura des élèves qui peuvent s'inscrire à un seul cours. Un cours pourra avoir plusieurs élèves.</p>
+
+<p> Pour ce faire nous avons créé le modèle suivant: 
+	<ul>
+		<li> <strong>Eleve</strong> qui a comme attributs 'first_name', 'last-name', 'email' et 'age'.<br/>
+			- <em>belongs_to</em> : Un Eleve appartient à un cours</li>
+		<li> <strong>Cour</strong> qui a comme attributs 'title' et 'description'.<br/>
+			- <em>has_many</em> : Un Cour a plusieurs élèves</li>upd
+		</ul></p>
+
+<p>Ce programme a été fait avec rails.
+Il utilise toutes les gems de RAILS par défaut, plus celle de FAKER qui permet d'avoir des données dans la base.</p>
+
